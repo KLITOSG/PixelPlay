@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkviolet;
+}
+
+header h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    text-shadow: 5px 5px rgba(238, 164, 229, 0.793);
+}
+header h3{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 0.5px rgb(255, 117, 255);
+
+}  
+.main-nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.main-nav form,
+.main-nav .user-actions {
+    padding: 20px;
+}
+
+.main-nav form input {
+    width: 500px;
+}
+
+.main-nav form input,
+.main-nav form button{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: rgba(173, 1, 182, 0.558);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.main-nav form input::placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.user-actions button{
+    margin: 0px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: rgba(173, 1, 182, 0.558);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+nav .nav-btn {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 13, 195, 0.59);
+    box-shadow: 10px 10px rgb(252, 163, 252);
+}
+
+nav .nav-btn button {
+    margin: 0 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: rgba(173, 1, 182, 0.558);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+ 
