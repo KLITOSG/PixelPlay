@@ -114,3 +114,19 @@ nav .nav-btn button {
     font-weight: 600;
 }
 
+.hero-illustrations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-illustrations div {
+     margin: 10px 20px;
+     height: 100px;
+     width: 100px;
+     border: 2px solid rgb(0, 0, 0);
+     border-radius: 6px;
+     background-color: rgb(230, 185, 232);
+     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
