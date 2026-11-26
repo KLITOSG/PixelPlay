@@ -81,5 +81,36 @@ nav .nav-btn button {
     font-weight: 600;
 }
 
+.hero{
+    background-color: rgb(243, 167, 255);
+    border: 3px solid black;
+    border-radius: 6px;
+}
 
+.hero-title {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hero-description {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
  
+.hero-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-primary-btn,
+.hero-secondary-btn {
+    margin: 10px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: rgba(173, 1, 182, 0.558);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
