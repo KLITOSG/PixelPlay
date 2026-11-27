@@ -136,7 +136,7 @@ nav .nav-btn button {
     background-color: rgb(243, 167, 255);
     border: 3px solid #000000;
     border-radius: 6px;
-   margin-top: 30px ;
+     margin-top: 30px ;
 }
 
 .Popular-Games .Popular-Games-h2 {
@@ -160,4 +160,59 @@ nav .nav-btn button {
     background-color: rgb(230, 185, 232);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+}
+
+.Categories {
+    background-color: rgb(243, 167, 255);
+    border: 3px solid #000000;
+    border-radius: 6px;
+    margin-top: 30px ;
+}
+
+
+.Categories .categories-heading{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Categories .intro {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.Categories .category-cards  {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.Categories .category-cards div{
+    margin: 10px 20px;
+    height: 80px;
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: rgb(230, 185, 232);
+    
+}
+
+.Categories .category-cards p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+   
+    margin-top: 5px;
+}
+
+.Categories .category-cards div button {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: rgba(173, 1, 182, 0.558);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
 }
